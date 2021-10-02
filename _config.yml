@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Marshall
+title: Marshall's Blog
 subtitle: "Marshall's Blog"
 description: 'A simple blog'
-keywords:
+keywords: Blog
 author: Marshall
 language: zh-CN
 timezone: 'Asia/Shanghai'

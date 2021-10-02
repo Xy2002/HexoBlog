@@ -205,8 +205,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: 全淦工程师
-  introduction: 一个嚷嚷着要做后端的菜鸡，结果一直在写前端。做的东西比较杂，小程序，web，桌面级应用都写过，基本都是用vue写的，主流的组件框架都有使用到，但是因为代码写的太垃了,基本所有仓库都是隐藏的2333
+  career: Front-end Engineer
+  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -215,33 +215,33 @@ myProjects:
   enable: true
   data:
     intelligentReviewPlatform:
-      icon: fas fa-file-alt
+      icon: fab fa-vuejs
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: https://github.com/
+      url: https://github.com/Xy2002/intelligentReviewPlatform
       desc: 基于Mpvue构建的微信小程序
-    beautifulCourseSchedule:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/
-        desc: 大一时用Python,JavaScript,Java,SQL等技术做的一个基于教务系统的课程表
-    automaticallyReportHealthCheckin:
+    nfu-Utils-vue:
+        icon: fab fa-vuejs
+        iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+        url: https://github.com/Xy2002/nfu-utils
+        desc: 基于Vue实现的一个教务Web application
+    automaticallyReport:
         icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+        iconBackground: 'linear-gradient(to right, #56ccf2, #2f80ed)'
         url: https://github.com/Xy2002/zdnf_auto_health_report
         desc: 没有实用性的企业微信健康打卡脚本
-    panoramicMapOfGuangzhouSouthUniversity:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+    panoramicMap:
+        icon: fas fa-vr-cardboard
+        iconBackground: 'linear-gradient(to right, #12c2e9, #c471ed, #f64f59)'
         url: https://github.com/Xy2002/panoramicMapOfGuangzhouSouthUniversity
         desc: 基于Three.js和PhotoSphereViewer的一个全景地图
-    nfuEcampusUtils:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+    nfu-Utils-electron:
+      icon: fas fa-atom
+      iconBackground: 'linear-gradient(to right, #36d1dc, #5b86e5)'
       url: https://github.com/Xy2002/zdnfUtils_vue_electron
       desc: 使用Electron与Vue开发的一个基于教务系统的工具箱
     chaoxingSignWeb:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+      icon: fab fa-vuejs
+      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://github.com/Xy2002/vue_chaoxing_qrcode_sign
       desc: 使用Vue写的一个简易的超星签到的web,支持各种签到类型
 
@@ -553,6 +553,7 @@ addthis:
   enable: false
   pubid:  # 前往https://www.addthis.com/获取
 
+
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
@@ -560,11 +561,11 @@ subtitle:
   loop: true # 是否循环
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟
-  typeSpeed: 150 # 打字速度
+  typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub:
-    - 有时你会觉得特别艰难，或许是上帝在给你准备惊喜。
-    - Sometimes you may feel the most difficult, but maybe God is preparing the surprise for you.
+    - 从来没有真正的绝境, 只有心灵的迷途
+    - Never really desperate, only the lost of the soul
 
 # 手机二级菜单.
 navMenu:
