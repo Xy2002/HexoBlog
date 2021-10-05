@@ -57,7 +57,7 @@ cover:
   showIndicators: true # 是否显示指示器. # Whether to display the indicators
   autoLoop: true # 是否自动轮播. Whether it is automatically rotated.
   duration: 120 # 切换延迟时间. Switching delay time.
-  intervalTime: 5000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
+  intervalTime: 10000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
   useConfig: false # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
 
@@ -206,7 +206,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: Front-end Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: “成长的过程中，总有人告诉你，这个世界是不会改变的，而你呢，只要学会去适应这个世界，尽量少把自己撞的头破血流。但生活完全可以更广阔的，只要你认清一个简单的事实，那就是，你身边被称之为生活的这一切，都是由人创造的，但这些人并不比你聪明。而你也改变这一切，影响这一切，甚至亲手创造出些能造福他人的东西。”
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -409,7 +409,7 @@ baiduAnalytics:
   id:
 
 # 百度搜索资源平台提交链接
-baiduPush: true
+baiduPush: false
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
@@ -562,10 +562,10 @@ subtitle:
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  backSpeed: 80 # 删除速度
   sub:
+  - Never really desperate, only the lost of the soul
   - 从来没有真正的绝境, 只有心灵的迷途
-  - aaaaaa
 
 # 手机二级菜单.
 navMenu:

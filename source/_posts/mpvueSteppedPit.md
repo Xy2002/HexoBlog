@@ -4,7 +4,7 @@ date: 2021-9-29 00:00:00
 author: Marshall
 img: https://unsplash.it/1920/1080?random5
 top: true
-cover: true
+cover: false
 coverImg: https://unsplash.it/1920/1080?random5
 toc: true
 mathjax: false

@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Marshall's Blog
+title: Marshall
 subtitle: "Marshall's Blog"
 description: 'A simple blog'
 keywords: Blog
@@ -102,9 +102,16 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: baidu_url_submitter
 
 # Search
 permalink_pinyin:
   enable: true
   separator: '-' # default: '-'
+
+# Baidu Search Push
+baidu_url_submit:
+  count: 100                 # 提交最新的多少个链接
+  host: www.naiquoy.com       # 在百度站长平台中添加的域名
+  token: F23ScMZbrvbXVSfb     # 秘钥
+  path: baidu_urls.txt

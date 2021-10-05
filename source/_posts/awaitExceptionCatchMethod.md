@@ -3,8 +3,8 @@ title: Node.js:async/await异常捕获
 date: 2021-5-7 18:30:00
 author: Marshall
 img: https://unsplash.it/1920/1080?random2
-top: true
-cover: true
+top: false
+cover: false
 coverImg: https://unsplash.it/1920/1080?random2
 toc: true
 mathjax: false
