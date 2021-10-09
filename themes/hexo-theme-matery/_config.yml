@@ -584,7 +584,7 @@ banner:
 #ICP备案信息尾部显示
 icp:
   enable: true
-  url: http://beian.miit.gov.cn/ # 备案链接
+  url: https://beian.miit.gov.cn/ # 备案链接
   text: 赣ICP备20009037号
 
 # CDN访问加速
