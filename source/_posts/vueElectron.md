@@ -34,7 +34,7 @@ vue add electron-builder
 npm run electron:serve
 ```
 
-在进行此步骤时，有很大的几率会报错`**Error: post install error, please remove node_modules before retry!**` ，此时需要将node_modules全部删掉，然后重新执行npm install。又有很大的几率会报错，内容大致是提示叫你重新安装electron，此时只需要将node_modules下的electron文件夹删除，然后执行npm install electron就可以了。在安装electron时的相关npm包时，官方推荐使用yarn，但是因为个人习惯原因，使用npm来进行安装。
+在进行此步骤时，有很大的几率会报错`Error: post install error, please remove node_modules before retry!` ，此时需要将node_modules全部删掉，然后重新执行npm install。又有很大的几率会报错，内容大致是提示叫你重新安装electron，此时只需要将node_modules下的electron文件夹删除，然后执行npm install electron就可以了。在安装electron时的相关npm包时，官方推荐使用yarn，但是因为个人习惯原因，使用npm来进行安装。
 
 ### 3.打包
 
