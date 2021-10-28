@@ -405,11 +405,11 @@ googleAnalytics:
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: 0e0a8643474d097db5c2adf3f5954dbb
 
 # 百度搜索资源平台提交链接
-baiduPush: false
+baiduPush: true
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
