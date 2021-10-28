@@ -1,19 +1,18 @@
 ---
 title: JavaScript的值传递和引用传递
-date: 2021-9-29 00:00:00
+date: 2021-10-28 08:30:00
 author: Marshall
-img: https://unsplash.it/1920/1080?random5
+img: https://unsplash.it/1920/1080?random7
 top: true
 cover: false
-coverImg: https://unsplash.it/1920/1080?random5
+coverImg: https://unsplash.it/1920/1080?random7
 toc: true
 mathjax: false
-summary: mpvue是一个很棒的框架
-categories: mpvue
+summary: 在JavaScript中，到底是值传递，还是引用传递呢？函数参数是按什么传递呢？
+categories: JavaScript
 reprintPolicy: cc_by
 tags:
-- mpvue
-- Vue.js
+- JavaScript
 ---
 
 在不断的学习中，碰到一个有趣的问题:“在JavaScript中，到底是值传递，还是引用传递呢？函数参数是按什么传递呢？”
