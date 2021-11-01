@@ -45,7 +45,25 @@ $ git clone https://github.com/youzan/vant-weapp.git
 ###### 局部引入
 在需要引入组件的页面目录下的 `main.json` 文件中，引入对应组件，引入方式同上。
 
-#### 2.2 组件使用
+#### 2.2 修改 project.config.json
+需要手动在 `project.config.json` 内添加如下配置，使开发者工具可以正确索引到 npm 依赖的位置。
+```json
+{
+  ...
+  "setting": {
+    ...
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./miniprogram/"
+      }
+    ]
+  }
+}
+```
+
+#### 2.3 组件使用
 直接在.vue页面中写相应标签即可。
 
 ### 注意事项
@@ -65,7 +83,7 @@ mpvue 使用方式
 ```
 ###### van-field 双向绑定
 示例：绑定输入框完成注册功能
-```vue
+```html
 <van-field :value="registerform.username" label="用户名" name="username" placeholder="在此处填写" @input="registerform.username=$event.mp.detail"></van-field>
 <button type="primary" @click="register">微信登录</button>
 ```
@@ -109,8 +127,8 @@ mpvue 使用方式
 
 ##### 3.获取 event 事件对象中值
 值得注意的是，mpvue中获取event值与原生小程序有所不同。举例：
-```vue
-onChange(event){ // 获取表单组件filed的值
+```javascript
+onChange(event) { // 获取表单组件filed的值
   console.log(event.mp.detail) // 注意加入mp
 }
 ```
