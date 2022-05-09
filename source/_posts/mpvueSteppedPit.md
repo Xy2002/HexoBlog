@@ -5,7 +5,6 @@ author: Marshall
 img: https://unsplash.it/1920/1080?random5
 top: true
 cover: false
-coverImg: https://unsplash.it/1920/1080?random5
 toc: true
 mathjax: false
 summary: mpvue是一个很棒的框架
@@ -64,7 +63,7 @@ Page({
 ```
 
 >实际使用
-```vue
+```html
 <van-field
     :value="value"
     placeholder="请输入用户名"
@@ -83,7 +82,7 @@ export default{
 ```
 
 很显然，我们需要做的就是将微信小程序中双向绑定的语法改为mpvue的双向绑定语法，在微信小程序中，attribute的风格为mustache style，既`{{value}}`的形式，进行修改时，不需要带`{{}}`，并且如果是绑定的是属性，需要在属性前加上`:`，如果绑定的是监听DOM事件，需要加上`@`，例如
-```vue
+```html
 <input value="{{value}}" />
 //需改为
 <input :value="value" />
@@ -98,26 +97,26 @@ export default{
 这是事件映射表，修改时需对照此表进行修改，左侧为 WEB 事件，右侧为 小程序 对应事件
 ```json
 {
-    click: 'tap',
-    touchstart: 'touchstart',
-    touchmove: 'touchmove',
-    touchcancel: 'touchcancel',
-    touchend: 'touchend',
-    tap: 'tap',
-    longtap: 'longtap',
-    input: 'input',
-    change: 'change',
-    submit: 'submit',
-    blur: 'blur',
-    focus: 'focus',
-    reset: 'reset',
-    confirm: 'confirm',
-    columnchange: 'columnchange',
-    linechange: 'linechange',
-    error: 'error',
-    scrolltoupper: 'scrolltoupper',
-    scrolltolower: 'scrolltolower',
-    scroll: 'scroll'
+    "click": "tap",
+    "touchstart": "touchstart",
+    "touchmove": "touchmove",
+    "touchcancel": "touchcancel",
+    "touchend": "touchend",
+    "tap": "tap",
+    "longtap": "longtap",
+    "input": "input",
+    "change": "change",
+    "submit": "submit",
+    "blur": "blur",
+    "focus": "focus",
+    "reset": "reset",
+    "confirm": "confirm",
+    "columnchange": "columnchange",
+    "linechange": "linechange",
+    "error": "error",
+    "scrolltoupper": "scrolltoupper",
+    "scrolltolower": "scrolltolower",
+    "scroll": "scroll"
 }
 ```
 
@@ -137,7 +136,7 @@ this.trigger('click', index);
 this.trigger('vclick', index);
 ```
 
-```vue
+```html
 <van-tabs :active="active" @vclick="handleClick">
 ```
 

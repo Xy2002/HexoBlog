@@ -5,7 +5,6 @@ author: Marshall
 img: https://unsplash.it/1920/1080?random2
 top: false
 cover: false
-coverImg: https://unsplash.it/1920/1080?random2
 toc: true
 mathjax: false
 summary: JavaScript中优雅的处理await异常

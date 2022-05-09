@@ -5,7 +5,6 @@ author: Marshall
 img: https://unsplash.it/1920/1080?random
 top: false
 cover: false
-coverImg: https://unsplash.it/1920/1080?random
 toc: true
 mathjax: false
 summary: mpvue可，vant-weapp可，两者在一起嘛...

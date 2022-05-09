@@ -5,7 +5,6 @@ author: Marshall
 img: https://unsplash.it/1920/1080?random3
 top: true
 cover: true
-coverImg: https://unsplash.it/1920/1080?random3
 toc: true
 mathjax: false
 summary: 一个JavaScript库，用于显示Photo Sphere全景照片

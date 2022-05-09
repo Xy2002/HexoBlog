@@ -3,9 +3,8 @@ title: Vue和Electron的所有坑总结
 date: 2021-6-10 00:00:00
 author: Marshall
 img: https://unsplash.it/1920/1080?random4
-top: true
+top: false
 cover: true
-coverImg: https://unsplash.it/1920/1080?random4
 toc: true
 mathjax: false
 summary: 将Vue与Electron相结合,快速构建桌面级应用

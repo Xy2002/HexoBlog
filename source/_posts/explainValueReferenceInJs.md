@@ -5,7 +5,6 @@ author: Marshall
 img: https://unsplash.it/1920/1080?random7
 top: true
 cover: false
-coverImg: https://unsplash.it/1920/1080?random7
 toc: true
 mathjax: false
 summary: 在JavaScript中，到底是值传递，还是引用传递呢？函数参数是按什么传递呢？
