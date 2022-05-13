@@ -8,16 +8,19 @@ cover: true
 toc: true  
 mathjax: false  
 summary: 在项目中将TSX搭配Vue进行开发  
-categories: JavaScript  
+categories: Vue  
 reprintPolicy: cc_by  
 tags:
-- JavaScript
+- TypeScript
+- JSX/TSX
+- Vue
+- Vite
 ---
 
 在开发时，碰到一个需求：利用Element Plus的MessageBox组件实现一个弹框选择器，即MessageBox+Select组件搭配使用，要将Select放在MessageBox的message配置项里，但message接受的类型为`string | VNode`，所以要搭配Vue的render函数`h()`来实现。  
 思路就是将Select组件封装好后，用`h()`转换为`VNode`，一开始本打算直接在message配置项中写好`h()`，但是实际实现的时候比较麻烦，最后决定将Select用TSX封装后用`h()`转换为VNode最方便。  
 
-# tsx支持  
+## tsx支持  
 首先需要安装官方维护的vite插件`@vitejs/plugin-vue-jsx`  
 ```bash
 yarn add @vitejs/plugin-vue-jsx -D
@@ -37,7 +40,7 @@ export default defineConfig({
 
 ```
 
-# 封装Select组件  
+## 封装Select组件  
 我想封装一个可刷新Option的组件，结构为Select + button > Option，并且需要父子组件间通信，即需要有`props`和`emit`。代码如下:  
 ```html
 <!--child.vue-->
@@ -116,7 +119,7 @@ export default defineComponent({
 </style>
 ```
 
-# 在MessageBox使用封装好的组件
+## 在MessageBox使用封装好的组件
 代码如下
 ```html
 <!--parent.vue-->

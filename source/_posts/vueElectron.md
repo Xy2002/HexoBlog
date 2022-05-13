@@ -8,11 +8,11 @@ cover: true
 toc: true
 mathjax: false
 summary: 将Vue与Electron相结合,快速构建桌面级应用
-categories: Electron
+categories: Vue
 reprintPolicy: cc_by
 tags:
 - Electron
-- Vue.js
+- Vue
 ---
 
 

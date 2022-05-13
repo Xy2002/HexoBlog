@@ -7,7 +7,11 @@
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/public/archives/2022" />
       <excludeFolder url="file://$MODULE_DIR$/public" />
+      <excludeFolder url="file://$MODULE_DIR$/public/2022/05" />
+      <excludeFolder url="file://$MODULE_DIR$/public/2022/05/09" />
     </content>
+    <content url="file://$MODULE_DIR$/public/2022/05" />
+    <content url="file://$MODULE_DIR$/public/2022/05/09" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="typed.js" level="application" />

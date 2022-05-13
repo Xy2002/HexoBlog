@@ -115,3 +115,8 @@ baidu_url_submit:
   host: www.naiquoy.com       # 在百度站长平台中添加的域名
   token: F23ScMZbrvbXVSfb     # 秘钥
   path: baidu_urls.txt
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
