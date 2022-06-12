@@ -102,8 +102,9 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: baidu_url_submitter
-
+  - type: baidu_url_submitter
+  - type: git
+    repo: https://github.com/Xy2002/xy2002.github.io.git
 # Search
 permalink_pinyin:
   enable: true
