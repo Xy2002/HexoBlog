@@ -1,44 +1,51 @@
-[{
-  "avatar": "https://www.naiquoy.com/imgs/twain.jpeg",
-  "name": "Twain",
-  "introduction": "永远滴神",
-  "url": "https://blog.2333.ink/",
-  "title": "前去膜拜"
-},{
-  "avatar": "https://noechou.cn/wp-content/uploads/2021/01/Cache_-6619600f913cdc0c..jpg",
-  "name": "第七纵队",
-  "introduction": "里歪是个戆卵",
-  "url": "https://noechou.cn/",
-  "title": "前去学习"
-}, {
-  "avatar": "https://www.scery.com/images/avatar.png",
-  "name": "Anthony",
-  "introduction": "As you look around",
-  "url": "https://www.scery.com/",
-  "title": "前去学习"
-}, {
-  "avatar": "https://cdn.site.taoidle.com/wp-content/uploads/2020/04/1587892058-wechat_pic_20200406225459.jpg",
-  "name": "Taoidle",
-  "introduction": "秋深し 隣はなにも しない人",
-  "url": "https://www.taoidle.com/",
-  "title": "前去学习"
-},{
-  "avatar": "https://cdn.site.taoidle.com/wp-content/uploads/2020/04/1588039248-photo_2019-02-14_18-47-31.jpg",
-  "name": "johnpoint",
-  "introduction": "折腾是第一生产力（不是",
-  "url": "https://blog.lvcshu.com/",
-  "title": "前去学习"
-},
+[
   {
-  "avatar": "https://img.imgdb.cn/item/603750c35f4313ce25f92a35.jpg",
-  "name": "SolitudeAlma",
-  "introduction": "都懂一点，不是很懂的小捞仔。",
-  "url": "https://blog.yt1209.com/",
-  "title": "前去学习"
-},{
-  "avatar": "https://jniantic.cn/logo.jpg",
-  "name": "经年思维",
-  "introduction": "有一份光，发一份热",
-  "url": "https://jniantic.cn",
-  "title": "前去学习"
-}]
+    "avatar": "https://www.naiquoy.com/imgs/twain.jpeg",
+    "name": "Little Twain",
+    "introduction": "永远滴神",
+    "url": "https://blog.2333.ink/",
+    "title": "前去膜拜"
+  },
+  {
+    "avatar": "https://noechou.cn/wp-content/uploads/2021/01/Cache_-6619600f913cdc0c..jpg",
+    "name": "第七纵队",
+    "introduction": "里歪是个戆卵",
+    "url": "https://noechou.cn/",
+    "title": "前去学习"
+  },
+  {
+    "avatar": "https://www.scery.com/images/avatar.png",
+    "name": "Anthony",
+    "introduction": "As you look around",
+    "url": "https://www.scery.com/",
+    "title": "前去学习"
+  },
+  {
+    "avatar": "https://www.taoidle.com/images/avatar.jpg",
+    "name": "Taoidle",
+    "introduction": "秋深し 隣はなにも しない人",
+    "url": "https://www.taoidle.com/",
+    "title": "前去学习"
+  },
+  {
+    "avatar": "https://www.naiquoy.com/imgs/johnpoint_avatar.jpeg",
+    "name": "johnpoint",
+    "introduction": "折腾是第一生产力（不是",
+    "url": "https://blog.lvcshu.com/",
+    "title": "前去学习"
+  },
+  {
+    "avatar": "https://img.imgdb.cn/item/603750c35f4313ce25f92a35.jpg",
+    "name": "SolitudeAlma",
+    "introduction": "都懂一点，不是很懂的小捞仔。",
+    "url": "https://blog.yt1209.com/",
+    "title": "前去学习"
+  },
+  {
+    "avatar": "https://jniantic.cn/logo.jpg",
+    "name": "经年思维",
+    "introduction": "有一份光，发一份热",
+    "url": "https://jniantic.cn",
+    "title": "前去学习"
+  }
+]
